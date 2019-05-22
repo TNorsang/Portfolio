@@ -1,7 +1,6 @@
 import React from 'react';
-import { Router, Route, hashHistory } from 'react-router';
-import Home from './containers/home';
-import App from './containers/App';
+import { Router, Route, hashHistory } from 'react-router'
+import App from './App';
 
 export default (
     <Router history={hashHistory}>
