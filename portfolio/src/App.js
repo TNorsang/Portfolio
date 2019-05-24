@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 // This import is getting the app css from app.css
 import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
-
+import Main from './components/main';
+import { Link } from 'react-router-dom'
 
 class App extends Component {
     render() {
@@ -11,24 +12,25 @@ class App extends Component {
            
             <div className="demo-big-content">
     <Layout>
-        <Header title="Title" scroll>
+        <Header className="header-color" title="Norsang's Portfolio" scroll>
             <Navigation>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
+                <Link to="/resume">Resume</Link>
+                <Link to="/aboutme">About Me</Link>
+                <Link to="/project">Projects</Link>
+                <Link to="/contact">Contacts</Link>
             </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer title="Norsang's Portfolio">
             <Navigation>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
+                <Link to="/resume">Resume</Link>
+                <Link to="/aboutme">About Me</Link>
+                <Link to="/project">Projects</Link>
+                <Link to="/contact">Contacts</Link>
             </Navigation>
         </Drawer>
         <Content>
             <div className="page-content" />
+            <Main/>
         </Content>
     </Layout>
 </div>
