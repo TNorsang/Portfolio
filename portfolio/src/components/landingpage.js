@@ -25,19 +25,20 @@ class Landing extends Component {
                         <div className="social-links">
 
                             {/* LinkedIn */}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                            <a href="https://www.linkedin.com/in/tenzin-norsang-077577173/" rel="noopener noreferrer" target="_blank">
                             <i className="fa fa-linkedin" aria-hidden="true" />
                             </a>
                             
                             {/* Github */}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                            <a href="https://github.com/TNorsang" rel="noopener noreferrer" target="_blank">
                             <i className="fa fa-github"  aria-hidden="true" />
                             </a>
 
-                            {/* Github */}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                            <i className="fa fa-youtube-square"  aria-hidden="true" />
+                            {/* Instagram */}
+                            <a href="https://www.instagram.com/norsangnyandak/" rel="noopener noreferrer" target="_blank">
+                            <i className="fa fa-instagram"  aria-hidden="true" />
                             </a>
+
                             
                         </div>
                         </div>
